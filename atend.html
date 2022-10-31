@@ -1,0 +1,159 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yazawa Fictional Medics</title>
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link rel="shortcut icon" href="assets/icons/health.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sobre.html">
+    <link rel="stylesheet" href="contato.html">
+    <link rel="stylesheet" href="atend.html">
+    <link rel="stylesheet" href="index.html">
+
+    <style>
+        .logo{
+            margin-left: 10px
+        }
+        .wrapper .sidebar{
+            background: rgb(5, 68, 104);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 280px;
+            height: 100%;
+            padding: 20px 0;
+            transition: all 0.5s ease;
+        }
+        .name-title {
+            font-family: "Audiowide", sans-serif;
+            color: blueviolet;
+            margin-left: 60px;
+        }
+
+        .main {
+            margin-left: 300px;
+        }
+
+        table, th, td {
+            border: 1px solid;
+            font-size: 11.6px;
+        }
+
+        .horario {
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 1%;
+            width: 100%;
+            height: 60px;
+            padding-bottom: 10px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<!-- menu -->
+
+<div class="wrapper">
+    <div class="sidebar">
+        <a class="index" href="index.html">
+            <img class="logo" src="assets/icons/health.ico" alt="logo">
+            <h1 class="name-title"><abbr title="Yazawa Fictional Medics">Yazawa Fictional Medics</abbr></h1>
+        </a>
+        <div class="options">
+            <ul class="list">
+
+                <a href="index.html" style="color:white">
+                    <li>Home</li>
+                </a>
+                <a href="sobre.html" style="color:white">
+                    <li>Sobre nós</li>
+                </a>
+                <a href="atend.html" style="color:white">
+                    <li>Atendimento</li>
+                </a>
+                <a href="contato.html" style="color:white">
+                    <li>Contato</li>
+                </a>
+
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="header">
+            <img class="banner" src="assets/images/equipe-cut.jpg" style="width: 65rem; margin-top: 1rem;" alt="banner">
+
+        </div>
+        <div class="content">
+            <h2 class="sub-one">Abaixo nossos horários e informações sobre os profissionais plantonistas:</h2>
+
+            <table class="headertable">
+                <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Especialidades</th>
+                    <th>Expediente</th>
+                    <th>Profissionais</th>
+                </tr>
+                </thead>
+                <tbody class="tablebody">
+                <tr>
+                    <th>De Domingo<br>
+                    a Domingo</th>
+                    <td>
+                        <ul class="horario">
+                            <li>Clínico</li><br>
+                            <li>Pediatria</li><br>
+                            <li>Cardiologia</li><br>
+                            <li>Radiografia</li><br>
+                            <li>Geriatria</li><br>
+                            <li>Nutrição</li><br>
+                            <li>Ortopedia</li><br>
+                            <li>Obstetria</li><br>
+                            <li>Fisioterapia</li><br>
+                            <li>Urologia</li>
+                        </ul>
+                    </td>
+                    <td class="horario">24h</td>
+                    <td>
+                        <ul class="horario">
+                            <li>Equipe de<br>
+                                Amigos<br>
+                                Imaginários</li><br>
+                        </ul>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <p>Lembrando que nossos serviços são 0800!</p>
+        </div>
+
+
+
+        <!--rodapé -->
+        <footer>
+            <hr>
+            YAZAWA FICTIONAL MEDICS<br><sup>&reg;</sup>
+            Travessa Fictícia, 20460 - Bairro da Literatura - Reino da Imaginação<br>
+            CAIXA POSTAL: 88888-888 / CONTATO: apenas_sonhe@chegaras.com
+        </footer>
+    </div>
+
+</div>
+
+</body>
+
+</html>

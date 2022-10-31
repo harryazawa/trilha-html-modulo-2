@@ -1,0 +1,172 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yazawa Fictional Medics</title>
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link rel="shortcut icon" href="assets/icons/health.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sobre.html">
+    <link rel="stylesheet" href="contato.html">
+    <link rel="stylesheet" href="atend.html">
+    <link rel="stylesheet" href="index.html">
+
+    <style>
+        .column {
+            float: left;
+            width: 40%;
+        }
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .logo{
+            margin-left: 10px
+        }
+        .wrapper .sidebar{
+            background: rgb(5, 68, 104);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 280px;
+            height: 100%;
+            padding: 20px 0;
+            transition: all 0.5s ease;
+        }
+        .name-title {
+            font-family: "Audiowide", sans-serif;
+            color: blueviolet;
+            margin-left: 60px;
+        }
+
+        .main {
+            margin-left: 300px;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 1%;
+            width: 100%;
+            height: 60px;
+            padding-bottom: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<!-- menu -->
+
+<div class="wrapper">
+    <div class="sidebar">
+        <a class="index" href="index.html">
+            <img class="logo" src="assets/icons/health.ico" alt="logo">
+            <h1 class="name-title"><abbr title="Yazawa Fictional Medics">Yazawa Fictional Medics</abbr></h1>
+        </a>
+        <div class="options">
+            <ul class="list">
+
+                <a href="index.html" style="color:white">
+                    <li>Home</li>
+                </a>
+                <a href="sobre.html" style="color:white">
+                    <li>Sobre nós</li>
+                </a>
+                <a href="atend.html" style="color:white">
+                    <li>Atendimento</li>
+                </a>
+                <a href="contato.html" style="color:white">
+                    <li>Contato</li>
+                </a>
+
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="header">
+            <img class="banner" src="assets/images/equipe-cut.jpg" style="width: 65rem; margin-top: 1rem;" alt="banner">
+
+        </div>
+        <div class="content">
+
+            <abbr title="Yazawa Fictional Medics">
+
+            </abbr>
+            <p>A <abbr title="Yazawa Fictional Medics"><strong>YFM<sup>&copy;</sup></strong></abbr> é uma das maiores redes de clínicas médicas
+                especializadas do Mundo da Imaginação, contando com equipes profissionais excelentes de altíssimo nível.
+            </p><br>
+            <div class="row">
+                <div class="column">
+                <h4 class="sub-two">Fale Conosco</h4>
+                <ul>
+                    <strong>
+                        <li>📧 E-mail: apenas_sonhe@chegaras.com</li>
+                    </strong>
+                </ul>
+                <h4 class="sub-two">Redes sociais</h4>
+                <ul>
+
+                    <strong>
+                        <li>LinkedIn: linkedin.com/YazawaFictionalMedics</li>
+                        <li>Facebook: fb.com/YazawaFictionalMedics</li>
+                        <li>Instagram: @YazawaFictionalMedics</li>
+                    </strong>
+                </ul>
+                </div>
+
+                <div class="column">
+                    <h2 class="sub-one">Você é importante para nós!</h2>
+
+                    <form class="formulario" method="post">
+                        <h2 class="sub-two">Fale Conosco</h2>
+
+                        <div class="field">
+                            <label for="nome">* Seu Nome :</label>
+                            <input type="text" id="nome" name="nome" placeholder="**Digite seu nome" required>
+                        </div><br>
+
+                        <div class="field">
+                            <label for="telefone">* Seu Telefone :</label>
+                            <input type="text" id="telefone" name="telefone" placeholder="**Digite seu Telefone">
+                        </div><br>
+
+                        <div class="field">
+                            <label for="email">* Seu E-Mail :</label>
+                            <input type="email" id="email" name="email" placeholder="**Digite seu E-Mail" required>
+                        </div><br>
+
+                        <div class="field">
+                            <label for="mensagem">Sua mensagem:</label>
+                            <textarea name="mensagem" id="mensagem" placeholder="**Digite sua mensagem"
+                                      required></textarea>
+                        </div>
+
+                        <input type="submit" value="Enviar"><br>
+                        <input type="reset" value="Limpar">
+                    </form>
+                </div>
+            </div>
+
+
+
+
+            <!--rodapé -->
+        <footer>
+            <hr>
+            YAZAWA FICTIONAL MEDICS<br><sup>&reg;</sup>
+            Travessa Fictícia, 20460 - Bairro da Literatura - Reino da Imaginação<br>
+            CAIXA POSTAL: 88888-888 / CONTATO: apenas_sonhe@chegaras.com
+        </footer>
+    </div>
+
+</div>
+</div>
+</body>
+
+</html>
